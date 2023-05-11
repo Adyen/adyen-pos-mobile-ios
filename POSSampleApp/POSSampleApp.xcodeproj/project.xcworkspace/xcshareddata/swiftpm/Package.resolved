@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "adyen-terminal-api-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Adyen/adyen-terminal-api-ios",
+      "state" : {
+        "revision" : "f3fb9e4f7ff80077db093858db94e4f5ccfaa944",
+        "version" : "1.3.0"
+      }
+    }
+  ],
+  "version" : 2
+}

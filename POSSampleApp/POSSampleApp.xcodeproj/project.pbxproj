@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA01CDD02A04431E00EC18A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01CDCF2A04431E00EC18A1 /* AppDelegate.swift */; };
+		BA01CDD22A04431E00EC18A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01CDD12A04431E00EC18A1 /* SceneDelegate.swift */; };
+		BA01CDD42A04431E00EC18A1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01CDD32A04431E00EC18A1 /* MainViewController.swift */; };
+		BA01CDD92A04431F00EC18A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA01CDD82A04431F00EC18A1 /* Assets.xcassets */; };
+		BA01CDDC2A04431F00EC18A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA01CDDA2A04431F00EC18A1 /* LaunchScreen.storyboard */; };
+		BA01CDE32A04561500EC18A1 /* AdyenPOS in Frameworks */ = {isa = PBXBuildFile; productRef = BA01CDE22A04561500EC18A1 /* AdyenPOS */; };
+		BA01CDE52A04561500EC18A1 /* TerminalAPIKit in Frameworks */ = {isa = PBXBuildFile; productRef = BA01CDE42A04561500EC18A1 /* TerminalAPIKit */; };
+		BA01CDEF2A058A8C00EC18A1 /* SampleAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01CDEE2A058A8C00EC18A1 /* SampleAppSwiftUIApp.swift */; };
+		BA01CDF12A058A8C00EC18A1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01CDF02A058A8C00EC18A1 /* MainView.swift */; };
+		BA01CDF32A058A8D00EC18A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA01CDF22A058A8D00EC18A1 /* Assets.xcassets */; };
+		BA01CDF62A058A8D00EC18A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA01CDF52A058A8D00EC18A1 /* Preview Assets.xcassets */; };
+		BA01CDFB2A058AFD00EC18A1 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01CDFA2A058AFD00EC18A1 /* MainViewModel.swift */; };
+		BA01CDFD2A058B1B00EC18A1 /* AdyenPOS in Frameworks */ = {isa = PBXBuildFile; productRef = BA01CDFC2A058B1B00EC18A1 /* AdyenPOS */; };
+		BA01CDFF2A058B1B00EC18A1 /* TerminalAPIKit in Frameworks */ = {isa = PBXBuildFile; productRef = BA01CDFE2A058B1B00EC18A1 /* TerminalAPIKit */; };
+		BA01CE002A058B3500EC18A1 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01CDFA2A058AFD00EC18A1 /* MainViewModel.swift */; };
+		BA3F9AD02A0A8AA6008B5123 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BA3F9ACF2A0A8AA6008B5123 /* LICENSE */; };
+		BA3F9AD12A0A8AA6008B5123 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BA3F9ACF2A0A8AA6008B5123 /* LICENSE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA01CDCD2A04431E00EC18A1 /* SampleAppUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAppUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA01CDCF2A04431E00EC18A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA01CDD12A04431E00EC18A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA01CDD32A04431E00EC18A1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BA01CDD82A04431F00EC18A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA01CDDB2A04431F00EC18A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA01CDDD2A04431F00EC18A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA01CDEC2A058A8C00EC18A1 /* SampleAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA01CDEE2A058A8C00EC18A1 /* SampleAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppSwiftUIApp.swift; sourceTree = "<group>"; };
+		BA01CDF02A058A8C00EC18A1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BA01CDF22A058A8D00EC18A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA01CDF52A058A8D00EC18A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA01CDFA2A058AFD00EC18A1 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		BA0FBB5C29F9182D00A4A419 /* POSSampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = POSSampleApp.entitlements; sourceTree = "<group>"; };
+		BA3F9ACF2A0A8AA6008B5123 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BAB89B1329F805AD007EB90E /* adyen-pos-package-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "adyen-pos-package-ios"; path = ..; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA01CDCA2A04431E00EC18A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA01CDE52A04561500EC18A1 /* TerminalAPIKit in Frameworks */,
+				BA01CDE32A04561500EC18A1 /* AdyenPOS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA01CDE92A058A8C00EC18A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA01CDFF2A058B1B00EC18A1 /* TerminalAPIKit in Frameworks */,
+				BA01CDFD2A058B1B00EC18A1 /* AdyenPOS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA01CDCE2A04431E00EC18A1 /* SampleAppUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BA01CDCF2A04431E00EC18A1 /* AppDelegate.swift */,
+				BA01CDD12A04431E00EC18A1 /* SceneDelegate.swift */,
+				BA01CDD32A04431E00EC18A1 /* MainViewController.swift */,
+				BA01CDD82A04431F00EC18A1 /* Assets.xcassets */,
+				BA01CDDA2A04431F00EC18A1 /* LaunchScreen.storyboard */,
+				BA01CDDD2A04431F00EC18A1 /* Info.plist */,
+			);
+			path = SampleAppUIKit;
+			sourceTree = "<group>";
+		};
+		BA01CDED2A058A8C00EC18A1 /* SampleAppSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				BA01CDEE2A058A8C00EC18A1 /* SampleAppSwiftUIApp.swift */,
+				BA01CDF02A058A8C00EC18A1 /* MainView.swift */,
+				BA01CDF22A058A8D00EC18A1 /* Assets.xcassets */,
+				BA01CDF42A058A8D00EC18A1 /* Preview Content */,
+				BA01CDFA2A058AFD00EC18A1 /* MainViewModel.swift */,
+			);
+			path = SampleAppSwiftUI;
+			sourceTree = "<group>";
+		};
+		BA01CDF42A058A8D00EC18A1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA01CDF52A058A8D00EC18A1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA0FBB5729F8081C00A4A419 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA3F9ACE2A0A8A07008B5123 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				BA3F9ACF2A0A8AA6008B5123 /* LICENSE */,
+			);
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
+		BAB89AF829F803CC007EB90E = {
+			isa = PBXGroup;
+			children = (
+				BA3F9ACE2A0A8A07008B5123 /* LICENSE */,
+				BA0FBB5C29F9182D00A4A419 /* POSSampleApp.entitlements */,
+				BAB89B1229F805AD007EB90E /* Packages */,
+				BA01CDCE2A04431E00EC18A1 /* SampleAppUIKit */,
+				BA01CDED2A058A8C00EC18A1 /* SampleAppSwiftUI */,
+				BAB89B0229F803CC007EB90E /* Products */,
+				BA0FBB5729F8081C00A4A419 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BAB89B0229F803CC007EB90E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA01CDCD2A04431E00EC18A1 /* SampleAppUIKit.app */,
+				BA01CDEC2A058A8C00EC18A1 /* SampleAppSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAB89B1229F805AD007EB90E /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				BAB89B1329F805AD007EB90E /* adyen-pos-package-ios */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA01CDCC2A04431E00EC18A1 /* SampleAppUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA01CDDE2A04431F00EC18A1 /* Build configuration list for PBXNativeTarget "SampleAppUIKit" */;
+			buildPhases = (
+				BA01CDC92A04431E00EC18A1 /* Sources */,
+				BA01CDCA2A04431E00EC18A1 /* Frameworks */,
+				BA01CDCB2A04431E00EC18A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleAppUIKit;
+			packageProductDependencies = (
+				BA01CDE22A04561500EC18A1 /* AdyenPOS */,
+				BA01CDE42A04561500EC18A1 /* TerminalAPIKit */,
+			);
+			productName = SampleAppUIKit;
+			productReference = BA01CDCD2A04431E00EC18A1 /* SampleAppUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA01CDEB2A058A8C00EC18A1 /* SampleAppSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA01CDF72A058A8D00EC18A1 /* Build configuration list for PBXNativeTarget "SampleAppSwiftUI" */;
+			buildPhases = (
+				BA01CDE82A058A8C00EC18A1 /* Sources */,
+				BA01CDE92A058A8C00EC18A1 /* Frameworks */,
+				BA01CDEA2A058A8C00EC18A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleAppSwiftUI;
+			packageProductDependencies = (
+				BA01CDFC2A058B1B00EC18A1 /* AdyenPOS */,
+				BA01CDFE2A058B1B00EC18A1 /* TerminalAPIKit */,
+			);
+			productName = SampleAppSwiftUI;
+			productReference = BA01CDEC2A058A8C00EC18A1 /* SampleAppSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAB89AF929F803CC007EB90E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BA01CDCC2A04431E00EC18A1 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					BA01CDEB2A058A8C00EC18A1 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = BAB89AFC29F803CC007EB90E /* Build configuration list for PBXProject "POSSampleApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAB89AF829F803CC007EB90E;
+			packageReferences = (
+				BA0FBB5D29F91CCD00A4A419 /* XCRemoteSwiftPackageReference "adyen-terminal-api-ios" */,
+			);
+			productRefGroup = BAB89B0229F803CC007EB90E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA01CDCC2A04431E00EC18A1 /* SampleAppUIKit */,
+				BA01CDEB2A058A8C00EC18A1 /* SampleAppSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA01CDCB2A04431E00EC18A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3F9AD02A0A8AA6008B5123 /* LICENSE in Resources */,
+				BA01CDDC2A04431F00EC18A1 /* LaunchScreen.storyboard in Resources */,
+				BA01CDD92A04431F00EC18A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA01CDEA2A058A8C00EC18A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3F9AD12A0A8AA6008B5123 /* LICENSE in Resources */,
+				BA01CDF62A058A8D00EC18A1 /* Preview Assets.xcassets in Resources */,
+				BA01CDF32A058A8D00EC18A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA01CDC92A04431E00EC18A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA01CDD42A04431E00EC18A1 /* MainViewController.swift in Sources */,
+				BA01CDD02A04431E00EC18A1 /* AppDelegate.swift in Sources */,
+				BA01CDD22A04431E00EC18A1 /* SceneDelegate.swift in Sources */,
+				BA01CE002A058B3500EC18A1 /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA01CDE82A058A8C00EC18A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA01CDF12A058A8C00EC18A1 /* MainView.swift in Sources */,
+				BA01CDEF2A058A8C00EC18A1 /* SampleAppSwiftUIApp.swift in Sources */,
+				BA01CDFB2A058AFD00EC18A1 /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA01CDDA2A04431F00EC18A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA01CDDB2A04431F00EC18A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA01CDDF2A04431F00EC18A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleAppUIKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adyen.sample.app.uikit.SampleAppUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA01CDE02A04431F00EC18A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleAppUIKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adyen.sample.app.uikit.SampleAppUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA01CDF82A058A8D00EC18A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SampleAppSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adyen.sample.app.swiftui.SampleAppSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA01CDF92A058A8D00EC18A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SampleAppSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adyen.sample.app.swiftui.SampleAppSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAB89B0D29F803CD007EB90E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAB89B0E29F803CD007EB90E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA01CDDE2A04431F00EC18A1 /* Build configuration list for PBXNativeTarget "SampleAppUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA01CDDF2A04431F00EC18A1 /* Debug */,
+				BA01CDE02A04431F00EC18A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA01CDF72A058A8D00EC18A1 /* Build configuration list for PBXNativeTarget "SampleAppSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA01CDF82A058A8D00EC18A1 /* Debug */,
+				BA01CDF92A058A8D00EC18A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB89AFC29F803CC007EB90E /* Build configuration list for PBXProject "POSSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB89B0D29F803CD007EB90E /* Debug */,
+				BAB89B0E29F803CD007EB90E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA0FBB5D29F91CCD00A4A419 /* XCRemoteSwiftPackageReference "adyen-terminal-api-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Adyen/adyen-terminal-api-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA01CDE22A04561500EC18A1 /* AdyenPOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AdyenPOS;
+		};
+		BA01CDE42A04561500EC18A1 /* TerminalAPIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA0FBB5D29F91CCD00A4A419 /* XCRemoteSwiftPackageReference "adyen-terminal-api-ios" */;
+			productName = TerminalAPIKit;
+		};
+		BA01CDFC2A058B1B00EC18A1 /* AdyenPOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AdyenPOS;
+		};
+		BA01CDFE2A058B1B00EC18A1 /* TerminalAPIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA0FBB5D29F91CCD00A4A419 /* XCRemoteSwiftPackageReference "adyen-terminal-api-ios" */;
+			productName = TerminalAPIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BAB89AF929F803CC007EB90E /* Project object */;
+}
