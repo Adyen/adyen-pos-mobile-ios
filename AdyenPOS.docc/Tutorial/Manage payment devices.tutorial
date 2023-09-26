@@ -1,0 +1,107 @@
+@Tutorial() {
+    @Intro(title: "Manage payment devices") {
+        Manage pairing and viewing payment devices like the card reader
+        
+        @Image(source: nyc1-manage-devices-chapter-icon, alt: "")
+    }
+    
+    @Section(title: "Manage permissions") {
+        @ContentAndMedia {
+            Your iOS POS app needs to have certain permissions for pairing the mobile device with the card reader            
+        }
+            
+        @Steps {
+            @Step {
+                Add `NSBluetoothAlwaysUsageDescription` property list key to your Info.plist file, it enables setting up a Bluetooth pairing between the mobile device and the card reader.
+                @Code(name: "Info.plist", file: 02-device-management-01-01.plist)           
+            }
+            
+            @Step {
+                Add `NSCameraUsageDescription` property list key to your Info.plist file, it enables using the camera of the mobile device to scan the barcode of the card reader. Barcode scanning is one of the ways to select a card reader for pairing.
+                @Code(name: "Info.plist", file: 02-device-management-01-02.plist)           
+            }
+        }
+    }
+        
+    @Section(title: "Suppress Apple Pay in your app") {
+        @ContentAndMedia {
+            It is possible that Apple Pay is enabled on the Apple device that runs your POS app. For example, if staff use their personal iPhone. When a card reader is near, the device running the POS app tries to make the payment using the Apple Pay passes that are on the device.
+            
+            To prevent this from happening, you must suppress Apple Pay in your iOS POS app when your app is in the foreground.
+        }
+            
+        @Steps {
+            @Step {
+                Contact Apple Pay at `apple-pay-inquiries@apple.com` and ask for an entitlement to suppress Apple Pay. 
+            }
+            
+            @Step {
+                When you receive confirmation that the entitlement was granted, add the entitlement to your provisioning profile on the Apple developer website.    
+                @Image(source: pass-presentation-suppression-icon, alt: "")
+            }
+            
+            @Step {
+                In Xcode, in the Signing & Capabilities settings, add the com.apple.developer.passkit.pass-presentation-suppression key to the .entitlements file for your app.   
+                @Code(name: "MyApp.entitlements", file: 02-device-management-entitlements.plist)
+            }
+            
+            @Step {
+                In your POS app, call `requestAutomaticPassPresentationSuppression`.
+                @Code(name: "POSViewModel.swift", file: 02-device-management-03-06.swift)                          
+            }
+        }
+    }
+    
+    @Section(title: "Use the device management UI through SwiftUI") {
+        @ContentAndMedia {
+            Use the device management screens built into the `AdyenPOS` SDK with SwiftUI
+        }
+            
+        @Steps {
+            @Step {
+                Add ``AdyenPOS/DeviceManagementView`` to the body property of your `View`. One of the ways to do that, is using the `.sheet` modifier.
+                @Code(name: "POSView.swift", file: 02-device-management-03-01.swift)                           
+            }
+            
+            @Step {
+                Show the ``AdyenPOS/DeviceManagementView`` on button tap. 
+                @Code(name: "POSView.swift", file: 02-device-management-03-02.swift) {
+                    @Image(source: empty-card-reader-manager-icon, alt: "")
+                }                       
+            }
+        }
+    }
+        
+    @Section(title: "Use the device management UI through UIKit") {
+        @ContentAndMedia {
+            To use the device management screens built into the `AdyenPOS` SDK with UIKit
+        }
+            
+        @Steps {
+            @Step {
+                Create an instance of ``AdyenPOS/DeviceManagementViewController`` using ``AdyenPOS/DeviceManagementViewController/init(paymentService:)``, passing your instance of ``AdyenPOS/PaymentService``.
+                @Code(name: "POSViewController.swift", file: 02-device-management-03-03.swift)                    
+            }
+            
+            @Step {
+                Present it in your preferred way. For example, with `presentViewController:animated:completion`.
+                @Code(name: "POSViewController.swift", file: 02-device-management-03-04.swift) {
+                    @Image(source: empty-card-reader-manager-icon, alt: "")
+                }                          
+            }
+        }
+    }
+        
+    @Section(title: "Use your own custom UI") {
+        @ContentAndMedia {
+            If you intend to build your own UI for device management
+        }
+            
+        @Steps {
+            @Step {
+                Use the ``AdyenPOS/DeviceManagerDelegate`` protocol to obtain all the necessary information.
+                @Code(name: "POSViewModel.swift", file: 02-device-management-03-05.swift)                           
+            }
+        }
+    }
+}
