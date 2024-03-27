@@ -12,8 +12,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AdyenPOS",
-    	    url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-beta/releases/assets/157514936.zip",
-      	    checksum: "3a5724ba3950abb7829be35b9d327c38b5590bf8c525ddb944b0ba81a103a7cc"
+    	    url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-beta/releases/assets/158870004.zip",
+      	    checksum: "938087f527d0ae5a6260082aa72f247b0c58b7c76c53187d210b0ba25d43b284"
         )
     ]
 )
