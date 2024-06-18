@@ -13,13 +13,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AdyenPOS",
-            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-beta/releases/assets/173755158.zip",
-            checksum: "3ffa10626579a6e553a6187f8442db0af6031871809cf59b7f15ee3fc0f8ef8f"
+            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-beta/releases/assets/174494636.zip",
+            checksum: "de5dfb901f5e88c0ef42943a68a1bac1700946587d21ea9d113d0a4d1ca4e899"
         ),
         .binaryTarget(
             name: "ADYPOS",
-            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-beta/releases/assets/173757763.zip",
-            checksum: "33bf49dcdbb3c6bb51987a08e0855ca6ed2d29ea9b16af0f926681754279a991"
+            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-beta/releases/assets/174494707.zip",
+            checksum: "865da17ff0beb827ef96b1417f85c87843b092cb75de5e6640ab9463adb05f64"
         )
     ]
 )
