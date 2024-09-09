@@ -37,7 +37,7 @@ class MainViewModel {
                     data: Coder.encode(request)
                 ),
                 paymentInterface: paymentInterface,
-                presentationMode: .viewModifier
+                presentationMode: presentationMode
             )
             
             /// Use the Terminal API response
