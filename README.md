@@ -10,11 +10,11 @@ The repository contains a small sample app which can be used to get started with
 See our documentation on [docs.adyen.com](https://docs.adyen.com/point-of-sale/ipp-mobile/)
 
 ### Developer  Documentation
-For developer documentation, you can use the above link, or if you prefer the Apple docc format, you can find it [here](https://adyen.github.io/adyen-pos-mobile-ios-artifacts/2.2.0/documentation/adyenpos/adyenpos)
+For developer documentation, you can use the above link, or if you prefer the Apple docc format, you can find it [here](https://adyen.github.io/adyen-pos-mobile-ios-artifacts/3.2.0/documentation/adyenpos/adyenpos)
 
 ### Tutorials
 You can also view a step by step tutorial which will walk you through how to integrate the SDK for both TapToPay and NYC1.
-Find the tutorials [here](https://adyen.github.io/adyen-pos-mobile-ios-artifacts/2.2.0/tutorials/meet-adyenpos/)
+Find the tutorials [here](https://adyen.github.io/adyen-pos-mobile-ios-artifacts/3.2.0/tutorials/meet-adyenpos/)
 
 
 ## Support

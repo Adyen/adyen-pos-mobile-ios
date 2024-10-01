@@ -6,21 +6,32 @@ import PackageDescription
 let package = Package(
     name: "AdyenPOS",
     products: [
-        .library(name: "AdyenPOS", targets: ["AdyenPOS"]),
-        .library(name: "ADYPOS", targets: ["ADYPOS", "AdyenPOS"])
+        .library(name: "AdyenPOSTEST", targets: ["AdyenPOSTEST"]),
+        .library(name: "ADYPOSTEST", targets: ["ADYPOSTEST", "AdyenPOSTEST"]),
+        .library(name: "AdyenPOSLIVE", targets: ["AdyenPOSLIVE"]),
+        .library(name: "ADYPOSLIVE", targets: ["ADYPOSLIVE", "AdyenPOSLIVE"])
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
-            name: "AdyenPOS",
-            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-artifacts/releases/assets/178408844.zip",
-            checksum: "90d8bf2b82481f2e4f7a574dba5102c54b0ab230f52cab792ee2e76fc71893a3"
+            name: "AdyenPOSTEST",
+            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-artifacts/releases/assets/196096710.zip",
+            checksum: "a809273f2d07af6e05781ae61152b794992b8bd00f511df86be6e4986c05a350"
         ),
         .binaryTarget(
-            name: "ADYPOS",
-            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-artifacts/releases/assets/178408826.zip",
-            checksum: "8e3ee65f6c521268f051a86a4c09b4d54ac858db870b6b85b9f808282e1939fe"
+            name: "ADYPOSTEST",
+            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-artifacts/releases/assets/196096779.zip",
+            checksum: "af5885ba6cdafd81f77ef997ce2ee35fa40d00a3b440cc9d2d6cc9f0e864f05d"
+        ),
+        .binaryTarget(
+            name: "AdyenPOSLIVE",
+            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-artifacts/releases/assets/196096727.zip",
+            checksum: "79420bea9f71ebd6a5df969d06a10a809d9b1754a30b675c51b2689d9cd94de6"
+        ),
+        .binaryTarget(
+            name: "ADYPOSLIVE",
+            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-artifacts/releases/assets/196096778.zip",
+            checksum: "a3d8e3553c30aa31810972d98d04a70a694921301ecae6e28e45e793c5a22abb"
         )
     ]
 )
-
