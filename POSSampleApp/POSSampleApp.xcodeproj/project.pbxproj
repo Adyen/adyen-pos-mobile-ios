@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D9EF3862CAC18CA00429E10 /* AdyenPOSTEST in Frameworks */ = {isa = PBXBuildFile; productRef = 2D9EF3852CAC18CA00429E10 /* AdyenPOSTEST */; };
+		2D9EF3882CAC18D000429E10 /* AdyenPOSTEST in Frameworks */ = {isa = PBXBuildFile; productRef = 2D9EF3872CAC18D000429E10 /* AdyenPOSTEST */; };
 		BA01CDD02A04431E00EC18A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01CDCF2A04431E00EC18A1 /* AppDelegate.swift */; };
 		BA01CDD22A04431E00EC18A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01CDD12A04431E00EC18A1 /* SceneDelegate.swift */; };
 		BA01CDD42A04431E00EC18A1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01CDD32A04431E00EC18A1 /* MainViewController.swift */; };
 		BA01CDD92A04431F00EC18A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA01CDD82A04431F00EC18A1 /* Assets.xcassets */; };
 		BA01CDDC2A04431F00EC18A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA01CDDA2A04431F00EC18A1 /* LaunchScreen.storyboard */; };
-		BA01CDE32A04561500EC18A1 /* AdyenPOS in Frameworks */ = {isa = PBXBuildFile; productRef = BA01CDE22A04561500EC18A1 /* AdyenPOS */; };
 		BA01CDE52A04561500EC18A1 /* TerminalAPIKit in Frameworks */ = {isa = PBXBuildFile; productRef = BA01CDE42A04561500EC18A1 /* TerminalAPIKit */; };
 		BA01CDEF2A058A8C00EC18A1 /* SampleAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01CDEE2A058A8C00EC18A1 /* SampleAppSwiftUIApp.swift */; };
 		BA01CDF12A058A8C00EC18A1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01CDF02A058A8C00EC18A1 /* MainView.swift */; };
 		BA01CDF32A058A8D00EC18A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA01CDF22A058A8D00EC18A1 /* Assets.xcassets */; };
 		BA01CDF62A058A8D00EC18A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA01CDF52A058A8D00EC18A1 /* Preview Assets.xcassets */; };
 		BA01CDFB2A058AFD00EC18A1 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01CDFA2A058AFD00EC18A1 /* MainViewModel.swift */; };
-		BA01CDFD2A058B1B00EC18A1 /* AdyenPOS in Frameworks */ = {isa = PBXBuildFile; productRef = BA01CDFC2A058B1B00EC18A1 /* AdyenPOS */; };
 		BA01CDFF2A058B1B00EC18A1 /* TerminalAPIKit in Frameworks */ = {isa = PBXBuildFile; productRef = BA01CDFE2A058B1B00EC18A1 /* TerminalAPIKit */; };
 		BA01CE002A058B3500EC18A1 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01CDFA2A058AFD00EC18A1 /* MainViewModel.swift */; };
 		BA3F9AD02A0A8AA6008B5123 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BA3F9ACF2A0A8AA6008B5123 /* LICENSE */; };
@@ -51,7 +51,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA01CDE52A04561500EC18A1 /* TerminalAPIKit in Frameworks */,
-				BA01CDE32A04561500EC18A1 /* AdyenPOS in Frameworks */,
+				2D9EF3862CAC18CA00429E10 /* AdyenPOSTEST in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA01CDFF2A058B1B00EC18A1 /* TerminalAPIKit in Frameworks */,
-				BA01CDFD2A058B1B00EC18A1 /* AdyenPOS in Frameworks */,
+				2D9EF3882CAC18D000429E10 /* AdyenPOSTEST in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,8 +162,8 @@
 			);
 			name = SampleAppUIKit;
 			packageProductDependencies = (
-				BA01CDE22A04561500EC18A1 /* AdyenPOS */,
 				BA01CDE42A04561500EC18A1 /* TerminalAPIKit */,
+				2D9EF3852CAC18CA00429E10 /* AdyenPOSTEST */,
 			);
 			productName = SampleAppUIKit;
 			productReference = BA01CDCD2A04431E00EC18A1 /* SampleAppUIKit.app */;
@@ -183,8 +183,8 @@
 			);
 			name = SampleAppSwiftUI;
 			packageProductDependencies = (
-				BA01CDFC2A058B1B00EC18A1 /* AdyenPOS */,
 				BA01CDFE2A058B1B00EC18A1 /* TerminalAPIKit */,
+				2D9EF3872CAC18D000429E10 /* AdyenPOSTEST */,
 			);
 			productName = SampleAppSwiftUI;
 			productReference = BA01CDEC2A058A8C00EC18A1 /* SampleAppSwiftUI.app */;
@@ -557,18 +557,18 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		BA01CDE22A04561500EC18A1 /* AdyenPOS */ = {
+		2D9EF3852CAC18CA00429E10 /* AdyenPOSTEST */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = AdyenPOS;
+			productName = AdyenPOSTEST;
+		};
+		2D9EF3872CAC18D000429E10 /* AdyenPOSTEST */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AdyenPOSTEST;
 		};
 		BA01CDE42A04561500EC18A1 /* TerminalAPIKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BA0FBB5D29F91CCD00A4A419 /* XCRemoteSwiftPackageReference "adyen-terminal-api-ios" */;
 			productName = TerminalAPIKit;
-		};
-		BA01CDFC2A058B1B00EC18A1 /* AdyenPOS */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AdyenPOS;
 		};
 		BA01CDFE2A058B1B00EC18A1 /* TerminalAPIKit */ = {
 			isa = XCSwiftPackageProductDependency;
