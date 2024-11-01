@@ -15,23 +15,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AdyenPOSTEST",
-            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-artifacts/releases/assets/196096710.zip",
-            checksum: "a809273f2d07af6e05781ae61152b794992b8bd00f511df86be6e4986c05a350"
+            url: "https://github.com/Adyen/adyen-pos-mobile-ios-artifacts/releases/download/3.3.0-RC13/AdyenPOSTest.xcframework.zip",
+            checksum: "e1a139fb68f062158a97dc3fb6dbeccceb19723361ceae0ae18f5f02565526d4"
         ),
         .binaryTarget(
             name: "ADYPOSTEST",
-            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-artifacts/releases/assets/196096779.zip",
-            checksum: "af5885ba6cdafd81f77ef997ce2ee35fa40d00a3b440cc9d2d6cc9f0e864f05d"
+            url: "https://github.com/Adyen/adyen-pos-mobile-ios-artifacts/releases/download/3.3.0-RC13/ADYPOSTest.xcframework.zip",
+            checksum: "8c54367fa52e09a48c625022969113f76f124cf44b4f64f1c2f125a692dd9399"
         ),
         .binaryTarget(
             name: "AdyenPOSLIVE",
-            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-artifacts/releases/assets/196096727.zip",
-            checksum: "79420bea9f71ebd6a5df969d06a10a809d9b1754a30b675c51b2689d9cd94de6"
+            url: "https://github.com/Adyen/adyen-pos-mobile-ios-artifacts/releases/download/3.3.0-RC13/AdyenPOSLive.xcframework.zip",
+            checksum: "c36dd3ad4b849691a2dff15ba8eccf3d1e7f97dca930cf87f69db57485862870"
         ),
         .binaryTarget(
             name: "ADYPOSLIVE",
-            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-artifacts/releases/assets/196096778.zip",
-            checksum: "a3d8e3553c30aa31810972d98d04a70a694921301ecae6e28e45e793c5a22abb"
+            url: "https://github.com/Adyen/adyen-pos-mobile-ios-artifacts/releases/download/3.3.0-RC13/ADYPOSLive.xcframework.zip",
+            checksum: "1541452cc4246ba4c7bd1b52576d5e186a134abeb62ef84e753019ceed8b284a"
         )
     ]
 )
