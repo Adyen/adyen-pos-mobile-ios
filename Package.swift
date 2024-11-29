@@ -15,23 +15,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AdyenPOSTEST",
-            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-artifacts/releases/assets/203402762.zip",
-            checksum: "12ba998b8e2bf7e470bc0ebdedfe42e459cb53ce69c5961d9dc19576db48fab2"
+            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-artifacts/releases/assets/209888053.zip",
+            checksum: "1550ca2e9338ebdd175ddaf769516485f90be785cbcf85567a1163adef9af5ed"
         ),
         .binaryTarget(
             name: "ADYPOSTEST",
-            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-artifacts/releases/assets/203402779.zip",
-            checksum: "03e309d9f94dfd19d11969777806989eb4d07a3ef47e3b7de0f263fb9c8028f7"
+            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-artifacts/releases/assets/209888058.zip",
+            checksum: "0fa157fc47a74cd165b4b88f96b6d9292c2d1eb8d13b1b1365189eea72fa246e"
         ),
         .binaryTarget(
             name: "AdyenPOSLIVE",
-            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-artifacts/releases/assets/203402745.zip",
-            checksum: "0ea981e7596f99fae23482cb396378bc373a4dd742b716701c8b5aec25be9968"
+            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-artifacts/releases/assets/209888047.zip",
+            checksum: "33590ddd062401f84e21f4b46c118c91124f629bfe985289650f804f0c30fb98"
         ),
         .binaryTarget(
             name: "ADYPOSLIVE",
-            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-artifacts/releases/assets/203402758.zip",
-            checksum: "a80c074ae9bd09359b47bf36812b63c33e083256d1e676fa73141979f8575c6e"
+            url: "https://api.github.com/repos/Adyen/adyen-pos-mobile-ios-artifacts/releases/assets/209888052.zip",
+            checksum: "a3d70b347b88cd1d239afe104ef6ee3621cf3b7dae4aa7097993b7e9d3846d32"
         )
     ]
 )
