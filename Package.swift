@@ -15,23 +15,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AdyenPOSTEST",
-            url: "https://pos-mobile.cdn.adyen.com/adyen-pos-ios/3.6.0/Test/AdyenPOS.xcframework.zip",
-            checksum: "158721719f2dd6ff5f4e1477aab906f13c293675794ab07edd2bfb4d3a8e616a"
+            url: "https://pos-mobile.cdn.adyen.com/adyen-pos-ios/3.6.2/Test/AdyenPOS.xcframework.zip",
+            checksum: "295466590cfff51011a7ef4c5da4406138b7bd0d0270aaeef47f9ffafff7d3e1"
         ),
         .binaryTarget(
             name: "ADYPOSTEST",
-            url: "https://pos-mobile.cdn.adyen.com/adyen-pos-ios/3.6.0/Test/ADYPOS.xcframework.zip",
-            checksum: "04d96dbcff8b0729809f7c3fcd6709fa1c1fb39f601ec875b5908be82c3d1450"
+            url: "https://pos-mobile.cdn.adyen.com/adyen-pos-ios/3.6.2/Test/ADYPOS.xcframework.zip",
+            checksum: "b330f05ffb2019db014794a5a9a4c096438e41ff6b81f7fdaa312402e338f5eb"
         ),
         .binaryTarget(
             name: "AdyenPOSLIVE",
-            url: "https://pos-mobile.cdn.adyen.com/adyen-pos-ios/3.6.0/Live/AdyenPOS.xcframework.zip",
-            checksum: "4faf044818c10b5713baf6619de4118e045748ee6771abf1d29dacbbf2dfb40a"
+            url: "https://pos-mobile.cdn.adyen.com/adyen-pos-ios/3.6.2/Live/AdyenPOS.xcframework.zip",
+            checksum: "2e5627bbde2d83a7708b6cb37ded8967af1643d0e127460e8250a7bafa200d10"
         ),
         .binaryTarget(
             name: "ADYPOSLIVE",
-            url: "https://pos-mobile.cdn.adyen.com/adyen-pos-ios/3.6.0/Live/ADYPOS.xcframework.zip",
-            checksum: "9548c5fb07deb2f6324ae526945f985c6edb22614c15e20c66a77f048084a777"
+            url: "https://pos-mobile.cdn.adyen.com/adyen-pos-ios/3.6.2/Live/ADYPOS.xcframework.zip",
+            checksum: "61963508e02cd2f735cbfc7d548d3e521133350d94c07ad3688e7bfecc4c49f8"
         )
     ]
 )
